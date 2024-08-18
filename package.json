@@ -9,8 +9,12 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "next": "14.2.5",
+    "nprogress": "^0.2.0",
     "react": "^18",
-    "react-dom": "^18",
-    "next": "14.2.5"
+    "react-dom": "^18"
+  },
+  "devDependencies": {
+    "mini-css-extract-plugin": "^2.9.0"
   }
 }

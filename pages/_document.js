@@ -2,13 +2,12 @@ import { Html, Head, Main, NextScript } from 'next/document'
 
 export default function Document() {
   return (
-    <Html>
+    <Html lang="ru">
       <Head />
       <body>
         <Main />
-        <NextScript />/*
-            <link rel="stylesheet" href="https://maot.ru/remote/chat/js/plugins/jquery-ui-1.13.2/jquery-ui.min.css"></link>
-            <script src = "https://maot.ru/remote/chat/js/jquery-3.3.1.min.js"></script>
+        <NextScript />
+        
             <script
               dangerouslySetInnerHTML={{
                 __html: `
@@ -16,7 +15,7 @@ export default function Document() {
                   m[i].l=1*new Date();k=e.createElement(t),a=e.getElementsByTagName(t)[0],k.async=1,k.src=r,a.parentNode.insertBefore(k,a)})
                   (window, document, "script", "https://mc.yandex.ru/metrika/tag.js", "ym");
         
-                  ym(1111111111111, "init", {
+                  ym(1111, "init", {
                         clickmap:true,
                         trackLinks:true,
                         accurateTrackBounce:true,
@@ -27,9 +26,9 @@ export default function Document() {
             />
             <noscript>
               <div>
-                <img src="https://mc.yandex.ru/watch/7703674" style={{ position:'absolute', left:'-9999px' }} alt="" />
+                <img src="https://mc.yandex.ru/watch/11111" style={{ position:'absolute', left:'-9999px' }} alt="" />
               </div>
-            </noscript>*/
+            </noscript>
       </body>
     </Html>
   )
